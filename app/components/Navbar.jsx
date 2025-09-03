@@ -3,7 +3,7 @@ import Image from "next/image";
 import { assets } from "@/assets/assets";
 import { useRef } from "react";
 
-export const Navbar = () => {
+const Navbar = () => {
   const sideMenuRef = useRef();
   const openMenu = () => {
     sideMenuRef.current.style.transform = "translateX(-16rem)";
@@ -112,3 +112,5 @@ export const Navbar = () => {
     </>
   );
 };
+
+export default Navbar;
