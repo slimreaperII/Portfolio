@@ -8,3 +8,17 @@
   --font-outfit: var(--font-outfit);
   --font-ovo: var(--font-ovo);
 }
+@layer utilities {
+  .shadow-black {
+    box-shadow: 4px 4px 0 #000;
+  }
+  .shadow-white {
+    box-shadow: 4px 4px 0 #fff;
+  }
+  .hover\:shadow-black:hover {
+    box-shadow: 4px 4px 0 #000;
+  }
+  .hover\:shadow-white:hover {
+    box-shadow: 4px 4px 0 #fff;
+  }
+}

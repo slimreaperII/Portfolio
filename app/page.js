@@ -1,6 +1,7 @@
 "use client";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
+import About from "./components/About";
 
 export default function Home() {
   return (
@@ -8,6 +9,7 @@ export default function Home() {
       <div>
         <Navbar />
         <Header />
+        <About />
       </div>
     </>
   );
