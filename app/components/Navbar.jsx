@@ -63,19 +63,11 @@ const Navbar = () => {
               My Work
             </a>
           </li>
-          <li>
-            <a className="font-Ovo" href="#contact">
-              Contact me
-            </a>
-          </li>
         </ul>
         <div className="flex items-center gap-4">
-          <button>
-            <Image src={assets.moon_icon} className="w-6" alt="" />
-          </button>
-
           <a
-            href="#contact"
+            href="mailto:Blankoprog86@gmail.com"
+            target="_blank"
             className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-500 rounded-full ml-4 font-Ovo"
           >
             Contact
@@ -120,7 +112,12 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a className="font-Ovo" onClick={closeMenu} href="#contact">
+            <a
+              target="_blank"
+              className="font-Ovo"
+              onClick={closeMenu}
+              href="mailto:Blankoprog86@gmail.com"
+            >
               Contact me
             </a>
           </li>

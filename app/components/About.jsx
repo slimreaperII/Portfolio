@@ -7,14 +7,14 @@ const About = () => {
     <div id="about" className="w-full px-[12%] py-10 scroll-mt-20">
       <h4 className="text-center mb-2 text-lg font-Ovo">Intoduction</h4>
       <h2 className="text-center text-5xl font-Ovo">About me</h2>
+      <p className="mb-10 max-w-2xl mx-auto mt-5 font-Ovo text-center">
+        I am computer science graduate with hands-on experience in frontend and
+        backend development, as well as API design. Proficient in JavaScript,
+        React, Python, and Django, with a strong focus on building scalable and
+        secure web applications.
+      </p>
       <div className="flex w-full flex-col lg:flex-row items-center gap-20 my-20">
         <div className="max-w-3xl text-center mx-auto">
-          <p className="mb-10 w-full  font-Ovo text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus nobis
-            porro commodi ab numquam mollitia omnis impedit hic distinctio?
-            Dolores necessitatibus veritatis corporis officia natus tempora
-            velit placeat et perspiciatis.
-          </p>
           <ul className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl mx-auto">
             {infoList.map(({ icon, iconDark, title, description }, index) => (
               <li
